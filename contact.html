@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact TaskBridge and read the demo website privacy policy.">
+  <title>Contact & Privacy | TaskBridge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html"><span class="logo-mark">T</span> TaskBridge<span class="dot">.</span></a>
+    <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="services.html">Services</a><a class="active" href="contact.html">Contact & Privacy</a></nav>
+    <a class="button button-small" href="#contact-form">Get in touch</a>
+  </header>
+  <main>
+    <section class="page-hero compact-hero">
+      <p class="eyebrow">WE'RE HERE TO HELP</p>
+      <h1>Let's make something<br><span>work better.</span></h1>
+      <p>Have a project idea or a question about our sample services? Send a message using the demo form below.</p>
+    </section>
+    <section class="section contact-layout">
+      <div class="contact-info">
+        <p class="eyebrow">CONTACT DETAILS</p><h2>Tell us what you're working on.</h2><p>Use the sample contact details below for your assignment. Replace them with your own approved details if needed.</p>
+        <div class="contact-detail"><span class="detail-icon">✉</span><div><small>Email</small><strong>hello@taskbridge.example</strong></div></div>
+        <div class="contact-detail"><span class="detail-icon">◷</span><div><small>Response time</small><strong>Usually within 1–2 business days</strong></div></div>
+        <div class="contact-detail"><span class="detail-icon">⌖</span><div><small>Location</small><strong>Online — serving clients remotely</strong></div></div>
+        <div class="demo-warning">This is a front-end demonstration. The form does not send or store messages.</div>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <h2>Send a message</h2><p class="form-subtitle">Fields marked with * are required.</p>
+        <label for="name">Your name *</label><input id="name" name="name" type="text" placeholder="e.g. Alex Morgan" required>
+        <label for="email">Email address *</label><input id="email" name="email" type="email" placeholder="you@example.com" required>
+        <label for="service">What do you need help with?</label><select id="service" name="service"><option value="">Choose a service</option><option>Design & Creative</option><option>Web & Technology</option><option>Marketing & Content</option><option>Business Support</option><option>Online Store Support</option><option>Other</option></select>
+        <label for="message">Project details *</label><textarea id="message" name="message" rows="5" placeholder="Tell us a little about your project..." required></textarea>
+        <button class="button" type="submit">Send demo message <span aria-hidden="true">→</span></button>
+        <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+    <section class="section privacy-section" id="privacy">
+      <p class="eyebrow">CLEAR AND SIMPLE</p><h2>Privacy policy</h2><p class="privacy-updated">Demo policy · Last updated: October 29, 2026</p>
+      <div class="privacy-content">
+        <h3>1. About this demo</h3><p>TaskBridge is a sample website created for learning HTML, CSS, and GitHub. It is not a live freelance marketplace and does not offer real bookings or payments.</p>
+        <h3>2. Information you enter</h3><p>The contact form is handled in your browser only. This demo does not transmit, save, or store the name, email address, service selection, or message you enter. Do not enter sensitive or confidential information.</p>
+        <h3>3. Cookies and tracking</h3><p>This static demo does not intentionally use cookies, analytics, or advertising trackers. Your hosting provider or browser may process basic technical information under its own policies.</p>
+        <h3>4. External services</h3><p>If this project is published using GitHub Pages, GitHub may process technical information according to GitHub's own privacy terms. This page is not a substitute for a legal review for a real business.</p>
+        <h3>5. Policy changes and contact</h3><p>This sample wording may be edited for educational purposes. For a real service, replace this policy with one that accurately reflects your data collection, storage, processors, and applicable legal requirements.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="logo" href="index.html"><span class="logo-mark">T</span> TaskBridge<span class="dot">.</span></a><p>Independent talent. Shared progress.</p><div class="footer-links"><a href="index.html">Home</a><a href="services.html">Services</a><a href="#privacy">Privacy policy</a></div><small>© 2026 TaskBridge. Demo website for learning and GitHub practice.</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
